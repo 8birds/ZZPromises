@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZPromises'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Network request promises, generic promises.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Provides a promises API for user-defined tasks, as well as a network-request pro
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.osx.deployment_target = '10.12'
+  # s.osx.deployment_target = '10.12'
 
   s.source_files = 'ZZPromises/Classes/**/*'
   
