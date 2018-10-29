@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZZPromises'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Network request promises, generic promises.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Provides a promises API for user-defined tasks, as well as a network-request promise API.
                        DESC
 
-  s.homepage         = 'https://github.com/Rick Kern/ZZPromises'
+  s.homepage         = 'https://github.com/8birds/zzpromises'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author           = { 'Rick Kern' => 'rick@8birdsvideo.com' }
-  s.source           = { :git => 'https://github.com/8birds/ZZPromises.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/8birds/zzpromises.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
