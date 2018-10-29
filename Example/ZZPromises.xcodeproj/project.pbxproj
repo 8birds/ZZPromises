@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		1CD0F7348BAFE6D67B7C28EB /* Pods-ZZPromises_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZPromises_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZPromises_Example/Pods-ZZPromises_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		21D56DAA7B00E5851D66ABA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2D33545C027C864B690A4A15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		442859F3A262EC294E9E5918 /* ZZPromises.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZPromises.podspec; path = ../ZZPromises.podspec; sourceTree = "<group>"; };
+		21D56DAA7B00E5851D66ABA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2D33545C027C864B690A4A15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		442859F3A262EC294E9E5918 /* ZZPromises.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZPromises.podspec; path = ../ZZPromises.podspec; sourceTree = "<group>"; };
 		560D0BFBC99A5EE69772C26D /* Pods-ZZPromises_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZPromises_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZPromises_Example/Pods-ZZPromises_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZZPromises_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZPromises_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Rick Kern";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = U3HPDK7QPP;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -522,9 +525,11 @@
 			baseConfigurationReference = 1CD0F7348BAFE6D67B7C28EB /* Pods-ZZPromises_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3HPDK7QPP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZPromises/ZZPromises-Prefix.pch";
 				INFOPLIST_FILE = "ZZPromises/ZZPromises-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,9 +542,11 @@
 			baseConfigurationReference = 560D0BFBC99A5EE69772C26D /* Pods-ZZPromises_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3HPDK7QPP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZPromises/ZZPromises-Prefix.pch";
 				INFOPLIST_FILE = "ZZPromises/ZZPromises-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

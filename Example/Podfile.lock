@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - ZZPromises (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - ZZPromises (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  ZZPromises:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  ZZPromises: 1d98c69313cab6de07aa11f7d5762d26effd7af3
+
+PODFILE CHECKSUM: 499a0759691d4ab8360909b591be0d4bb576d420
+
+COCOAPODS: 1.5.3
