@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZZPromises_Example' do
+  pod 'ZZPromises', :path => '../'
+
+  target 'ZZPromises_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

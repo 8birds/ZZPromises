@@ -1,0 +1,22 @@
+{
+  "name": "ZZPromises",
+  "version": "0.1.0",
+  "summary": "A short description of ZZPromises.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rick Kern/ZZPromises",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rick Kern": "rick@8birdsvideo.com"
+  },
+  "source": {
+    "git": "https://github.com/Rick Kern/ZZPromises.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZZPromises/Classes/**/*"
+}

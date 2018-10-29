@@ -1,0 +1,16 @@
+PODS:
+  - ZZPromises (0.1.0)
+
+DEPENDENCIES:
+  - ZZPromises (from `../`)
+
+EXTERNAL SOURCES:
+  ZZPromises:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZPromises: 1d98c69313cab6de07aa11f7d5762d26effd7af3
+
+PODFILE CHECKSUM: 6a753fc13a6348ac33e31cdb86f1923cfe9efa79
+
+COCOAPODS: 1.5.3
